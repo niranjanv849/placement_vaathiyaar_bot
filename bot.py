@@ -25,9 +25,9 @@ dispatcher.add_handler(start_value)
 #CODING_QUEST
 
 questions=[
-'',
-'',
-'']
+'🐣',
+'🐥',
+'🐤']
 level=['Easy🥉','Medium🥈','Hard🥇']
 def coding_quest(update:Update,context:CallbackContext):
     bot.send_message(
@@ -45,7 +45,7 @@ dispatcher.add_handler(start_value)
 def upcoming_companies(update:Update,context:CallbackContext):
     bot.send_message(
         chat_id=update.effective_chat.id,
-        text="⏳\tCompanies and Packages:\n------------------------------------------------------------\n🚀\t\t\tLowe's - 19.14 LPA\n🚀\t\t\tPaypal - 18.0 LPA\n🚀\t\t\tJuspay - 15.0 LPA \n🚀\t\t\tInformatica - 12.5 LPA\n🚀\t\t\tTiger Analytics - 8.5 LPA\n🚀\t\t\tThoughtworks - 8.3 LPA\n🚀\t\t\tZohocorp - 8.4 LPA\n🚀\t\t\tInfosys - 8.2 LPA\n🚀\t\t\ttRently - 8.0 LPA\n🚀\t\t\tPresidio - 8.0 LPA\n🚀\t\t\tKaar Tech - 8.0 LPA\n🚀\t\t\tQuinbay - 7.5 LPA\n🚀\t\t\tSoliton - 6.0 LPA\n🚀\t\t\tTemenos - 6.0 LPA\n🚀\t\t\tOdessa - 6.0 LPA\n------------------------------------------------------------\n⏳Ongoing\t\t\t✅Visited\t\t\t🚀Yet to come",   
+        text="⏳\tCompanies and Packages:\n------------------------------------------------------------\n🚀\t\t\tLowe's - 19.14 LPA\n🚀\t\t\tPaypal - 18.0 LPA\n🚀\t\t\tJuspay - 15.0 LPA \n🚀\t\t\tInformatica - 12.5 LPA\n🚀\t\t\tTiger Analytics - 8.5 LPA\n🚀\t\t\tThoughtworks - 8.3 LPA\n🚀\t\t\tZohocorp - 8.4 LPA\n🚀\t\t\tInfosys - 8.2 LPA\n🚀\t\t\tRently - 8.0 LPA\n🚀\t\t\tPresidio - 8.0 LPA\n🚀\t\t\tKaar Tech - 8.0 LPA\n🚀\t\t\tQuinbay - 7.5 LPA\n🚀\t\t\tSoliton - 6.0 LPA\n🚀\t\t\tTemenos - 6.0 LPA\n🚀\t\t\tOdessa - 6.0 LPA\n------------------------------------------------------------\n⏳Ongoing\t\t\t✅Visited\t\t\t🚀Yet to come",   
         )
 
 
