@@ -69,7 +69,7 @@ def contests_updates(update:Update,context:CallbackContext):
         )
     bot.send_message(
         chat_id=update.effective_chat.id,
-        text="👩‍💻Ongoing Contests | Basic Details:\n---------------------------------------------------------\n\n🔍\t\t\tContest:  Goldman Sachs - 20 LPA\n\n🔗\t\t\tRegistration: closed🔒 \n\n📅\t\t\tContest Date: Jan (updating soon⏳)",
+        text="👩‍💻Ongoing Contests | Basic Details:\n---------------------------------------------------------\n\n🔍\t\t\tContest:  Goldman Sachs - 20 LPA\n\n🔗\t\t\tRegistration: closed🔒 \n\n📅\t\t\tAptitude Test Date: Jan 16th 2022",
         )
 
 
