@@ -71,7 +71,10 @@ def contests_updates(update:Update,context:CallbackContext):
         chat_id=update.effective_chat.id,
         text="👩‍💻Ongoing Contests | Basic Details:\n---------------------------------------------------------\n\n🔍\t\t\tContest:  Goldman Sachs - 20 LPA\n\n🔗\t\t\tRegistration: closed🔒 \n\n📅\t\t\tAptitude Test Date: Ended on Jan 16th 4:00pm ⏱\n\nCandidates waiting for results⏳",
         )
-
+    bot.send_message(
+        chat_id=update.effective_chat.id,
+        text="👩‍💻Ongoing Contests | Basic Details:\n---------------------------------------------------------\n\n🔍\t\t\tContest:  TCS CodeVita -10\n\n🔗\t\t\tRegistration: ongoing⏳ \n\n📅\t\t\tAll year students eligible to attend",
+        )
 
 start_value=CommandHandler('contests_updates',contests_updates)
 dispatcher.add_handler(start_value)
